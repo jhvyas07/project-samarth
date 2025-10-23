@@ -1,0 +1,52 @@
+# # --- Streamlit + UI ---
+# streamlit==1.39.0
+
+# # --- Data & Analysis ---
+# pandas==2.2.3
+# numpy==1.26.4
+# requests==2.32.3
+# python-dotenv==1.0.1
+
+# # --- LangChain Core + Google Gemini Integration ---
+# langchain==1.0.2
+# langsmith==0.3.45
+# langchain-google-genai==2.1.12
+
+# # --- Google Generative AI SDKs ---
+# google-genai==1.7.0       # Supports Gemini 2.x models
+# # google-generativeai==0.8.5  # Older SDK, needed for compatibility with some LangChain tools
+
+# # --- Optional / Utilities ---
+# tqdm==4.66.5
+# protobuf==5.28.3
+
+
+#####################################
+
+# Core Dependencies - Tested and Compatible Versions
+streamlit==1.39.0
+pandas==2.2.3
+requests==2.32.3
+
+# LangChain Core (Use the same version across all langchain packages)
+langchain==0.3.7
+langchain-core==0.3.15
+langchain-community==0.3.5
+
+# LangChain Google Integration
+langchain-google-genai==2.0.5
+
+# LangChain Experimental (for PythonREPLTool)
+langchain-experimental==0.3.3
+
+# Google AI SDK (required by langchain-google-genai)
+google-generativeai==0.8.3
+
+# Supporting Libraries
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-core==2.23.4
+
+# Optional but recommended for stability
+typing-extensions==4.12.2
+numpy==1.26.4
